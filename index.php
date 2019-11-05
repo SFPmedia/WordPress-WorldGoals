@@ -1,5 +1,6 @@
+
 <?php get_header();?>
 
-Hello World! fra Steffens computer
+<p>Hello World! fra Steffens computer</p>
 
 <?php get_footer();?>
