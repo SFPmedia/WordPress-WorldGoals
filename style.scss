@@ -7,16 +7,13 @@ Tags: World Goal; World Goals; Trash Cleaning;
 */
 
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 @media only screen and (min-width: 600px) {
-  .body {
-    display: -ms-grid !important;
+    .body {
     display: grid !important;
-    -ms-grid-columns: 1fr (minmax(auto, 1000px))[2] 1fr !important;
-        grid-template-columns: 1fr repeat(2, minmax(auto, 1000px)) 1fr !important;
-  }
+    grid-template-columns: 1fr repeat(2, minmax(auto, 1000px)) 1fr !important;
+    }
 }
-/*# sourceMappingURL=style.css.map */
