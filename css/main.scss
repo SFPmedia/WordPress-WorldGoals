@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    main {
+
+    }
+
+}
+
+@media only screen and (min-width: 425px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 35em)) 1fr;
+        .content-grid {
+            grid-column: 2/4;
+        }
+    }
+}
