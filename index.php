@@ -1,5 +1,5 @@
 <?php get_header();?>
 
-Hello World!
+Hello World! fra Steffens computer
 
 <?php get_footer();?>
