@@ -2,6 +2,8 @@
 *, html {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 @media only screen and (min-width: 425px) {
@@ -28,15 +30,47 @@ h3,
 h4,
 h5 {
   font-family: 'Oswald', sans-serif;
+  margin: 1rem;
 }
 
 p,
 a,
-span {
+span,
+li {
   font-family: 'Roboto', sans-serif;
+  line-height: 1.8;
+  margin: 1rem;
 }
 
 .logo {
   font-family: 'Arvo', serif;
+}
+
+main .frontpage .frontpage-title {
+  color: #6967CE;
+  font-size: 30px;
+}
+
+main .frontpage .frontpage-subtitle {
+  text-align: center;
+  color: #6967CE;
+  font-size: 85px;
+}
+
+main .frontpage .frontpage-subtitle2 {
+  margin-top: -2em;
+  color: #ffffff;
+  font-size: 60px;
+}
+
+main .frontpage button {
+  display: block;
+  background: #6967CE;
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+  padding: 1em 3em;
+  border: none;
+  margin: 1rem auto;
 }
 /*# sourceMappingURL=main.css.map */

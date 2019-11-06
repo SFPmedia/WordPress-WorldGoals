@@ -1,0 +1,23 @@
+
+
+main {
+    .frontpage {
+        .frontpage-title {
+            color: $purple;
+            font-size: 30px;
+        }
+        .frontpage-subtitle {
+            text-align: center;
+            color: $purple;
+            font-size: 85px;
+        }
+        .frontpage-subtitle2 {
+            margin-top: -2em;
+            color: #ffffff;
+            font-size: 60px;
+        }
+        button {
+            @include button;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+@mixin button {
+    display: block;
+    background: $purple;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    padding: 1em 3em;
+    border: none;
+    margin: 1rem auto;
+}
