@@ -7,13 +7,6 @@
     <title>Document</title>
     <?php wp_head(); ?>
 </head>
-<body>
-    <header class="grid">
+<body <?php body_class() ?>>
 
-    </header>
-    
-    <main class="grid">
-        <section class="content-grid">
-        <h1>Hello World! fra Steffens computer</h1>
-        </section>
-    </main>
+    <?php wp_nav_menu(array('theme_location'=>'primary')) ?>

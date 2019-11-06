@@ -1,0 +1,9 @@
+@media only screen and (min-width: $medium) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 30em)) 1fr;
+        .content-grid {
+            grid-column: 2/4;
+        }
+    }
+}

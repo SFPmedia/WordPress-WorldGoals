@@ -1,4 +1,5 @@
-* {
+@import url("https://fonts.googleapis.com/css?family=Arvo|Oswald|Roboto&display=swap");
+*, html {
   margin: 0;
   padding: 0;
 }
@@ -7,13 +8,35 @@
   .grid {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr (minmax(auto, 35em))[2] 1fr;
-        grid-template-columns: 1fr repeat(2, minmax(auto, 35em)) 1fr;
+    -ms-grid-columns: 1fr (minmax(auto, 30em))[2] 1fr;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 30em)) 1fr;
   }
   .grid .content-grid {
     -ms-grid-column: 2;
     -ms-grid-column-span: 2;
     grid-column: 2/4;
   }
+}
+
+.colors {
+  background: #F4F4F4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Oswald', sans-serif;
+}
+
+p,
+a,
+span {
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+  font-family: 'Arvo', serif;
 }
 /*# sourceMappingURL=main.css.map */

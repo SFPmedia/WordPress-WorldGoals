@@ -4,3 +4,10 @@ function main_script_enqueue() {
 }
 add_action('wp_enqueue_scripts', 'main_script_enqueue');
 
+
+function mainmenu_theme_setup() {
+    add_theme_support('menus');
+
+    register_nav_menu('primary', 'Primary header navigation');
+}
+add_action('init', 'mainmenu_theme_setup');
