@@ -126,6 +126,8 @@ main .frontpage button {
   padding: 0 11% 3% 18%;
   border: 1.5px solid #19AFD0;
   background-color: white;
+  -webkit-box-shadow: 8px 17px 0px -1px #19AFD0;
+          box-shadow: 8px 17px 0px -1px #19AFD0;
 }
 
 .om-os .end-para {
