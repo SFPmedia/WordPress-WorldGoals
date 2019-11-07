@@ -115,4 +115,48 @@ main .frontpage button {
   border: none;
   margin: 1rem auto;
 }
+
+.om-os {
+  background-color: #F4F4F4;
+  padding: 5em;
+}
+
+.om-os .form {
+  margin: 0 8% 0 8%;
+  padding: 0 11% 3% 18%;
+  border: 1.5px solid #19AFD0;
+  background-color: white;
+}
+
+.om-os .end-para {
+  margin-bottom: 10em;
+}
+
+.om-os form {
+  margin-left: 1rem;
+}
+
+.om-os h1 {
+  color: #19AFD0;
+  font-weight: normal;
+  font-size: 35px;
+}
+
+.om-os textarea {
+  margin-bottom: 1em;
+}
+
+.om-os .form h2 {
+  color: #19AFD0;
+}
+
+.om-os .btn {
+  color: white;
+  background-color: #19AFD0;
+  font-family: 'Oswald', sans-serif;
+  margin: 0em;
+  padding: 4px 15px;
+  text-decoration: none;
+  border-radius: 8px;
+}
 /*# sourceMappingURL=main.css.map */
