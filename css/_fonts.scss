@@ -6,12 +6,16 @@ h3,
 h4,
 h5 {
     font-family: 'Oswald', sans-serif;
+    margin: 1rem;
 }
 
 p,
 a,
-span {
+span,
+li {
     font-family: 'Roboto', sans-serif;
+    line-height: 1.8;
+    margin: 1rem;
 }
 
 .logo {

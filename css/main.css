@@ -2,6 +2,8 @@
 *, html {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 @media only screen and (min-width: 425px) {
@@ -28,15 +30,89 @@ h3,
 h4,
 h5 {
   font-family: 'Oswald', sans-serif;
+  margin: 1rem;
 }
 
 p,
 a,
-span {
+span,
+li {
   font-family: 'Roboto', sans-serif;
+  line-height: 1.8;
+  margin: 1rem;
 }
 
 .logo {
   font-family: 'Arvo', serif;
+}
+
+header .menu-main-navigation-container {
+  position: fixed;
+  bottom: 0;
+  background-color: #000000;
+  opacity: 80%;
+  width: 100%;
+}
+
+header .menu-main-navigation-container .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header .menu-main-navigation-container .menu li {
+  list-style-type: none;
+}
+
+header .menu-main-navigation-container .menu li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+header .menu-main-navigation-container .menu li a:active {
+  border-bottom: solid 5px #6967CE;
+}
+
+@media only screen and (min-width: 768px) {
+  header .menu-main-navigation-container {
+    position: relative;
+    background: rgba(0, 0, 0, 0);
+  }
+  header .menu-main-navigation-container .menu {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+}
+
+main .frontpage .frontpage-title {
+  color: #6967CE;
+  font-size: 30px;
+}
+
+main .frontpage .frontpage-subtitle {
+  text-align: center;
+  color: #6967CE;
+  font-size: 85px;
+}
+
+main .frontpage .frontpage-subtitle2 {
+  margin-top: -2em;
+  color: #ffffff;
+  font-size: 60px;
+}
+
+main .frontpage button {
+  display: block;
+  background: #6967CE;
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+  padding: 1em 3em;
+  border: none;
+  margin: 1rem auto;
 }
 /*# sourceMappingURL=main.css.map */

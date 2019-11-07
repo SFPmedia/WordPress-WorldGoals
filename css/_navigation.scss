@@ -1,0 +1,36 @@
+header {
+    .menu-main-navigation-container {
+        position: fixed;
+        bottom: 0;
+        background-color: #000000;
+        opacity: 80%;
+        width: 100%;
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            li {
+                list-style-type: none;
+                a {
+                    color: #ffffff;
+                    text-decoration: none;
+                    font-size: 20px;
+                    &:active {
+                        border-bottom: solid 5px $purple;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: $large) {
+    header {
+        .menu-main-navigation-container {
+            position: relative;
+            background: rgba(0, 0, 0, 0);
+            .menu {
+                justify-content: start;
+            }
+        }
+    }
+}

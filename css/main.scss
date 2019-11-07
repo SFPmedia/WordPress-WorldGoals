@@ -1,6 +1,7 @@
 *, html {
     margin: 0;
-    padding: 0
+    padding: 0;
+    box-sizing: border-box;
 }
 
 // Page setup
@@ -11,4 +12,9 @@
 @import '_colors.scss';
 @import '_fonts.scss';
 
+
 // Custom styling
+@import '_button.scss';
+
+@import '_navigation.scss';
+@import '_frontpage.scss';
