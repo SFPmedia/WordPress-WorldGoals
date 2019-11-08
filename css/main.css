@@ -115,4 +115,123 @@ main .frontpage button {
   border: none;
   margin: 1rem auto;
 }
+
+.sc_header {
+  max-width: 1920px;
+  height: auto;
+  margin: auto;
+  position: relative;
+  background-color: black;
+}
+
+.sc_header a {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.sc_header a img {
+  opacity: 0.85;
+}
+
+.sc_header .sc_cover {
+  width: 100%;
+  height: auto;
+}
+
+.sc_header .header-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: white;
+}
+
+.sc_header .header-content .site-title {
+  font-size: 39px;
+  font-family: 'arvo';
+  font-weight: 400;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .sc_header .header-content .site-title {
+    font-size: 100px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .sc_header .header-content .site-title {
+    font-size: 155px;
+  }
+}
+
+.sc_header .header-content .site-description {
+  text-align: end;
+  font-family: 'oswald';
+  font-weight: 400;
+  font-size: 10px;
+  margin: 0;
+  line-height: 0.05em;
+}
+
+@media screen and (min-width: 768px) {
+  .sc_header .header-content .site-description {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .sc_header .header-content .site-description {
+    font-size: 40px;
+  }
+}
+
+.sc_header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 1em;
+}
+
+.sc_header ul li {
+  display: inline;
+  margin: 0;
+  margin-left: 2em;
+}
+
+.sc_header ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: 'oswald';
+  font-size: 20px;
+  font-weight: 300;
+  background-color: transparent;
+}
+
+.sc_header ul li a:hover {
+  border-bottom: solid 5px #6967CE;
+}
+
+.mainnav {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .mainnav {
+    display: inline-block;
+  }
+}
+
+.mobilenav {
+  background-color: rgba(0, 0, 0, 0.164);
+}
+
+@media screen and (min-width: 768px) {
+  .mobilenav {
+    display: none;
+  }
+}
 /*# sourceMappingURL=main.css.map */

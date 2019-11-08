@@ -1,0 +1,108 @@
+.sc_header {
+    max-width: 1920px;
+    height: auto;
+    margin: auto;
+    position: relative;
+    background-color: black;
+
+    a {
+        background-color: black;
+        margin: 0;
+        padding: 0;
+
+        img {
+            opacity: 0.85;
+        }
+    }
+
+    .sc_cover {
+        width: 100%;
+        height: auto;
+    }
+
+    .header-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+
+        .site-title {
+            font-size: 39px;
+            font-family: 'arvo';
+            font-weight: 400;
+            margin: 0;
+
+            @media screen and (min-width: $large) {
+                font-size: 100px;
+            }
+            @media screen and (min-width: $x-large) {
+                font-size: 155px;
+            }
+        }
+
+        .site-description {
+            text-align: end;
+            font-family: 'oswald';
+            font-weight: 400;
+            font-size: 10px;
+            margin: 0;
+            line-height: 0.05em;
+
+            @media screen and (min-width: $large) {
+                font-size: 30px;
+            }
+            @media screen and (min-width: $x-large) {
+                font-size: 40px;
+            }
+        }
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 1em;
+
+        li {
+            display: inline;
+            margin: 0;
+            margin-left: 2em;
+
+            a {
+                text-decoration: none;
+                color: white;
+                font-family: 'oswald';
+                font-size: 20px;
+                font-weight: 300;
+                background-color: transparent;
+
+                &:hover {
+                    border-bottom: solid 5px $purple;
+                }
+            }
+        }
+    }
+}
+
+.mainnav {
+    display: none;
+
+    @media screen and (min-width: $large) {
+        display: inline-block;
+    }
+}
+
+
+.mobilenav {
+    background-color: rgba(0, 0, 0, 0.164);
+
+    @media screen and (min-width: $large) {
+            display: none;
+    }
+}
+
+
+
+
