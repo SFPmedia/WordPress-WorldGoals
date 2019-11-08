@@ -1,7 +1,7 @@
 <?php get_header();?>
 
 <main class="grid">
-        <section class="content-grid colors om-os">
+        <section class="content-grid colors kontoside">
         <?php 
 	
 	if( have_posts() ):
