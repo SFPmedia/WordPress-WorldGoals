@@ -116,7 +116,7 @@ main .frontpage button {
   margin: 1rem auto;
 }
 
-.frontpage {
+.kontoside {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -125,7 +125,7 @@ main .frontpage button {
   padding-bottom: 120px;
 }
 
-.frontpage .konto-oversigt {
+.kontoside .konto-oversigt {
   color: #19AFD0;
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
@@ -136,7 +136,7 @@ main .frontpage button {
   font-weight: 200;
 }
 
-.frontpage .konto-boble-et {
+.kontoside .konto-boble-et {
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 50px 1fr 100px;
@@ -155,7 +155,7 @@ main .frontpage button {
           box-shadow: 8px 17px 0px -1px #19AFD0;
 }
 
-.frontpage .konto-boble-et .konto-profil {
+.kontoside .konto-boble-et .konto-profil {
   color: #19AFD0;
   font-size: 21px;
   -ms-grid-row: 1;
@@ -166,7 +166,7 @@ main .frontpage button {
   grid-column: 1/2;
 }
 
-.frontpage .konto-boble-et .konto-venstre-liste-et {
+.kontoside .konto-boble-et .konto-venstre-liste-et {
   list-style-type: none;
   font-size: 14px;
   -ms-grid-row: 2;
@@ -179,12 +179,12 @@ main .frontpage button {
   margin-top: 4%;
 }
 
-.frontpage .konto-boble-et .konto-venstre-liste-et li {
+.kontoside .konto-boble-et .konto-venstre-liste-et li {
   margin: 0;
   color: #8E8181;
 }
 
-.frontpage .konto-boble-et .konto-venstre-liste-to {
+.kontoside .konto-boble-et .konto-venstre-liste-to {
   list-style-type: none;
   font-size: 14px;
   -ms-grid-row: 2;
@@ -196,12 +196,12 @@ main .frontpage button {
   margin-top: 4%;
 }
 
-.frontpage .konto-boble-et .konto-venstre-liste-to li {
+.kontoside .konto-boble-et .konto-venstre-liste-to li {
   margin: 0;
   font-weight: bolder;
 }
 
-.frontpage .konto-boble-et .konto-rp {
+.kontoside .konto-boble-et .konto-rp {
   width: 178px;
   height: 53px;
   margin-left: auto;
@@ -214,7 +214,7 @@ main .frontpage button {
   grid-column: 1/3;
 }
 
-.frontpage .konto-boble-et .konto-rp a {
+.kontoside .konto-boble-et .konto-rp a {
   background-color: #19AFD0;
   font-size: 19px;
   height: 62px;
@@ -223,7 +223,7 @@ main .frontpage button {
   border-radius: 5px;
 }
 
-.frontpage .konto-boble-to {
+.kontoside .konto-boble-to {
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 50px 1fr 100px;
@@ -242,7 +242,7 @@ main .frontpage button {
           box-shadow: 8px 17px 0px -1px #19AFD0;
 }
 
-.frontpage .konto-boble-to .konto-bo {
+.kontoside .konto-boble-to .konto-bo {
   color: #19AFD0;
   font-size: 21px;
   -ms-grid-column: 1;
@@ -253,7 +253,7 @@ main .frontpage button {
   grid-row: 1/2;
 }
 
-.frontpage .konto-boble-to .konto-kreditkort {
+.kontoside .konto-boble-to .konto-kreditkort {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2/3;
@@ -266,7 +266,7 @@ main .frontpage button {
   font-weight: bolder;
 }
 
-.frontpage .konto-boble-to .konto-skift {
+.kontoside .konto-boble-to .konto-skift {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2/3;
@@ -279,7 +279,7 @@ main .frontpage button {
   font-weight: bolder;
 }
 
-.frontpage .konto-boble-to .konto-aa {
+.kontoside .konto-boble-to .konto-aa {
   width: 178px;
   height: 53px;
   margin-left: auto;
@@ -292,7 +292,7 @@ main .frontpage button {
   grid-row: 3/4;
 }
 
-.frontpage .konto-boble-to .konto-aa a {
+.kontoside .konto-boble-to .konto-aa a {
   background-color: #19AFD0;
   font-size: 19px;
   height: 62px;
