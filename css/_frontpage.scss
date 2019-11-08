@@ -4,20 +4,67 @@ main {
     .frontpage {
         .frontpage-title {
             color: $purple;
-            font-size: 30px;
+            font-size: 2em;
         }
         .frontpage-subtitle {
             text-align: center;
             color: $purple;
-            font-size: 85px;
+            font-size: 4em;
         }
         .frontpage-subtitle2 {
             margin-top: -2em;
             color: #ffffff;
-            font-size: 60px;
+            font-size: 2em;
         }
         button {
             @include button;
+        }
+        .wp-block-columns {
+            .wp-block-column {
+                margin: 1em 1em;
+                position: relative;
+                background: #ffffff;
+                padding: 1em;
+                h2 {
+                    text-align: center;
+                }
+                div {
+                    ul {
+                        padding: 1em;
+                    }
+                    .wp-block-button {
+                        a {
+                            @include button;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: $medium) {
+    main {
+        .frontpage {
+            .frontpage-title {
+                font-size: 30px;
+            }
+            .frontpage-subtitle {
+                font-size: 85px;
+            }
+            .frontpage-subtitle2 {
+                font-size: 60px;
+            }
+            button {
+                @include button;
+            }
+            .wp-block-columns {
+                .wp-block-column {
+                    .wp-block-button {
+                        
+                    } 
+                }
+            }
         }
     }
 }
