@@ -48,19 +48,19 @@ li {
 
 main .frontpage .frontpage-title {
   color: #6967CE;
-  font-size: 30px;
+  font-size: 2em;
 }
 
 main .frontpage .frontpage-subtitle {
   text-align: center;
   color: #6967CE;
-  font-size: 85px;
+  font-size: 4em;
 }
 
 main .frontpage .frontpage-subtitle2 {
   margin-top: -2em;
   color: #ffffff;
-  font-size: 60px;
+  font-size: 2em;
 }
 
 main .frontpage button {
@@ -72,5 +72,56 @@ main .frontpage button {
   padding: 1em 3em;
   border: none;
   margin: 1rem auto;
+  border-radius: 5px;
+}
+
+main .frontpage .wp-block-columns .wp-block-column {
+  margin: 1em 1em;
+  position: relative;
+  background: #ffffff;
+  padding: 1em;
+}
+
+main .frontpage .wp-block-columns .wp-block-column h2 {
+  text-align: center;
+}
+
+main .frontpage .wp-block-columns .wp-block-column div ul {
+  padding: 1em;
+}
+
+main .frontpage .wp-block-columns .wp-block-column div .wp-block-button a {
+  display: block;
+  background: #6967CE;
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+  padding: 1em 3em;
+  border: none;
+  margin: 1rem auto;
+  border-radius: 5px;
+}
+
+@media only screen and (min-width: 425px) {
+  main .frontpage .frontpage-title {
+    font-size: 30px;
+  }
+  main .frontpage .frontpage-subtitle {
+    font-size: 85px;
+  }
+  main .frontpage .frontpage-subtitle2 {
+    font-size: 60px;
+  }
+  main .frontpage button {
+    display: block;
+    background: #6967CE;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    padding: 1em 3em;
+    border: none;
+    margin: 1rem auto;
+    border-radius: 5px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
