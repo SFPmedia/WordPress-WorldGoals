@@ -1,0 +1,44 @@
+.om-os { 
+    background-color: $background;
+    padding: 5em;
+
+    .form {
+    margin: 0 8% 0 8%;
+    padding: 0 11% 3% 18%;
+    border: 1.5px solid $blue;
+    background-color: white;
+    box-shadow: 8px 17px 0px -1px #19AFD0;
+    }
+
+    .end-para {
+        margin-bottom: 10em;
+    }
+
+    form {
+        margin-left: 1rem;
+    }
+    
+    h1 {
+    color: $blue;
+    font-weight: normal;
+    font-size: 35px;
+    }
+
+    textarea {
+        margin-bottom: 1em;
+    }
+    
+    .form h2 {
+    color: $blue;
+    }
+
+    .btn {
+        color: white;
+        background-color: $blue;
+        font-family: 'Oswald', sans-serif;
+        margin: 0em;
+        padding: 4px 15px;
+        text-decoration: none;
+        border-radius: 8px;
+    }
+}

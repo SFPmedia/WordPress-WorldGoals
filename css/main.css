@@ -116,6 +116,18 @@ main .frontpage button {
   margin: 1rem auto;
 }
 
+
+.om-os {
+  background-color: #F4F4F4;
+  padding: 5em;
+}
+
+.om-os .form {
+  margin: 0 8% 0 8%;
+  padding: 0 11% 3% 18%;
+  border: 1.5px solid #19AFD0;
+  background-color: white;
+}
 .kontoside {
   display: -ms-grid;
   display: grid;
@@ -151,10 +163,43 @@ main .frontpage button {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1/2;
+
   -webkit-box-shadow: 8px 17px 0px -1px #19AFD0;
           box-shadow: 8px 17px 0px -1px #19AFD0;
 }
 
+
+.om-os .end-para {
+  margin-bottom: 10em;
+}
+
+.om-os form {
+  margin-left: 1rem;
+}
+
+.om-os h1 {
+  color: #19AFD0;
+  font-weight: normal;
+  font-size: 35px;
+}
+
+.om-os textarea {
+  margin-bottom: 1em;
+}
+
+.om-os .form h2 {
+  color: #19AFD0;
+}
+
+.om-os .btn {
+  color: white;
+  background-color: #19AFD0;
+  font-family: 'Oswald', sans-serif;
+  margin: 0em;
+  padding: 4px 15px;
+  text-decoration: none;
+  border-radius: 8px;
+}
 .kontoside .konto-boble-et .konto-profil {
   color: #19AFD0;
   font-size: 21px;
@@ -299,5 +344,6 @@ main .frontpage button {
   width: 178px;
   font-family: 'Oswald', sans-serif;
   border-radius: 5px;
+
 }
 /*# sourceMappingURL=main.css.map */
